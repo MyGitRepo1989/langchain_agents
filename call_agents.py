@@ -417,7 +417,7 @@ def home():
         )
 
 def run_flask():
-    app.run(host="127.0.0.1", port=5031, debug=True, use_reloader=False)
+    app.run(host="127.0.0.1", port=5000, debug=True, use_reloader=False)
 
 # Run Flask in a background thread
 flask_thread = threading.Thread(target=run_flask)
