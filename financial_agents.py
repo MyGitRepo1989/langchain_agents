@@ -21,15 +21,15 @@ model_google = genai.GenerativeModel('gemini-1.5-flash')
 
 #IMPORT MODELS
 # REPLACE PATH HERE
-model_path_pb="stocks_msft/save_model_indicator2"
+model_path_pb="stocks_msft/save_model_indicator1"
 model_saved_pb = GPT2LMHeadModel.from_pretrained(model_path_pb)
-model_path_roe="stocks_msft/save_model_indicator3"
+model_path_roe="stocks_msft/save_model_indicator2"
 model_saved = GPT2LMHeadModel.from_pretrained(model_path_roe)
-model_path_sma="stocks_msft/save_model_indicator_4v2"
+model_path_sma="stocks_msft/save_model_indicator3"
 model_saved_sma = GPT2LMHeadModel.from_pretrained(model_path_sma)
-model_path_revenue="stocks_msft/save_model_indicator5"
+model_path_revenue="stocks_msft/save_model_indicator4"
 model_saved_revenue = GPT2LMHeadModel.from_pretrained(model_path_revenue)
-model_path_debt="stocks_msft/save_model_indicator1_v2"
+model_path_debt="stocks_msft/save_model_indicator5"
 model_saved_debt = GPT2LMHeadModel.from_pretrained(model_path_debt)
 
 
